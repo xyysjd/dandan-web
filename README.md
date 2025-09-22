@@ -71,12 +71,25 @@ dandan-web/
 
 ## 快速开始
 
-### 使用Docker Compose（推荐）
+### 一键启动（推荐）
 
 ```bash
-# 克隆项目
-git clone <repository-url>
-cd dandan-web
+chmod +x start.sh
+./start.sh
+```
+
+这个脚本会自动：
+- 检测并安装Docker和Docker Compose
+- 修复依赖问题
+- 构建并启动服务
+- 显示访问地址
+
+### 手动启动
+
+```bash
+# 确保Docker已安装
+docker --version
+docker-compose --version
 
 # 启动服务
 docker-compose up -d
@@ -84,6 +97,7 @@ docker-compose up -d
 # 访问应用
 # 前端: http://localhost:3000
 # 后端API: http://localhost:8000
+# API文档: http://localhost:8000/docs
 ```
 
 ### 手动启动
