@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { UploadInstance, UploadProps, UploadRawFile } from 'element-plus'
-import { UploadFilled } from '@element-plus/icons-vue'
+// import { UploadFilled } from '@element-plus/icons-vue'
 import { apiClient } from '~/utils/fetch'
 
 const { setVideo } = usePlayerStore()
@@ -59,7 +59,7 @@ const handleChange: UploadProps['onChange'] = async (uploadFile) => {
     :on-change="handleChange"
   >
     <el-icon class="el-icon--upload">
-      <UploadFilled />
+      <div class="i-ep-upload-filled" />
     </el-icon>
     <div class="el-upload__text">
       移动本地视频至此或<em>点击上传</em>即可开始匹配视频信息

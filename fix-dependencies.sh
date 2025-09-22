@@ -32,6 +32,7 @@ cat > package.json << 'EOF'
     "test": "vitest"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
     "@iconify/utils": "^2.1.0",
     "@vueuse/core": "^10.9.0",
     "axios": "^1.6.2",

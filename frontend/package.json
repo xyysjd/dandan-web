@@ -13,6 +13,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
     "@iconify/utils": "^2.1.0",
     "@vueuse/core": "^10.9.0",
     "axios": "^1.6.2",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
+    "@iconify-json/ep": "^1.1.15",
     "@iconify/json": "^2.2.150",
     "@types/node": "^20.10.0",
     "@types/nprogress": "^0.2.3",
