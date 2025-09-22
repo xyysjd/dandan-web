@@ -1,7 +1,3 @@
-# 弹弹Play Web - Python版本
-
-弹弹play web简易实现的Python完整复刻版本
-
 ## 项目特性
 
 - [x] 基础功能：弹幕播放器&匹配弹幕
@@ -36,38 +32,7 @@
 - **ArtPlayer**: 简洁的HTML5播放器
 - **dan-player**: 支持弹幕的播放器
 
-## 项目结构
 
-```
-dandan-web/
-├── backend/                 # Python后端
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py         # FastAPI应用入口
-│   │   ├── api/            # API路由
-│   │   ├── core/           # 核心配置
-│   │   ├── models/         # 数据模型
-│   │   ├── services/       # 业务逻辑
-│   │   └── utils/          # 工具函数
-│   ├── requirements.txt    # Python依赖
-│   └── Dockerfile         # Docker配置
-├── frontend/               # Vue前端
-│   ├── src/
-│   │   ├── components/     # Vue组件
-│   │   ├── composables/    # 组合式API
-│   │   ├── pages/          # 页面组件
-│   │   ├── store/          # Pinia状态管理
-│   │   ├── styles/         # 样式文件
-│   │   ├── typings/        # TypeScript类型
-│   │   ├── utils/          # 工具函数
-│   │   └── workers/        # Web Workers
-│   ├── package.json        # Node.js依赖
-│   ├── vite.config.ts      # Vite配置
-│   ├── tsconfig.json       # TypeScript配置
-│   └── unocss.config.ts    # UnoCSS配置
-├── docker-compose.yml      # Docker Compose配置
-└── README.md              # 项目说明
-```
 
 ## 快速开始
 
